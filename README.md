@@ -42,3 +42,11 @@ addding
 # Prettier setup
 
 addding
+
+# adding git huks
+
+> yar add -D husky
+> npx husky init
+> echo "yarn lint" > .husky/pre-commit  
+> echo "yarn build" > .husky/pre-push
+> --- update
